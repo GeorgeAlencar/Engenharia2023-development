@@ -1,0 +1,29 @@
+.flexColumn{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.5vw;
+    height: 85vh;
+    width: 95vw;
+    overflow: hidden;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../sprites/Quest.svg");
+}
+.flexRow{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vh;
+    margin:5px;
+    height: 40vh;
+    width: 95vw;
+    justify-content: center;
+    align-items: center;
+}
+.fichas{
+    width:16vw !important;
+    height:32vh !important;
+/*    background-color: blueviolet; */
+    z-index: 20;
+    border-radius: 250px;
+}
